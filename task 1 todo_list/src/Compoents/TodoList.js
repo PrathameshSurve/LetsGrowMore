@@ -44,9 +44,9 @@ export default function TodoList() {
 
 
 
-    return <div > < TodoForm addTask = { addTask } > < /TodoForm> <
+    return <div> <TodoForm addTask = { addTask } > </TodoForm> <
     Todo todos = { todos }
     completeTask = { completeTask }
-    removeTask = { removeTask } > < /Todo> </div > ;
+    removeTask = { removeTask } > </Todo> </div > ;
 
 }
