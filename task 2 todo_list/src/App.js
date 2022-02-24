@@ -2,9 +2,10 @@ import './App.css';
 import TodoList from './Compoents/TodoList'
 
 function App() {
-    return ( < div className = "Todo-list-containers" >
+    return ( <div className = "Todo-list-containers" >
         <
-        TodoList / > < /div>
+        TodoList / > 
+        </div>
     );
 }
 
